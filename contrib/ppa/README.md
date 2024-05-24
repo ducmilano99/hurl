@@ -62,6 +62,7 @@ apt install -y \
 ## Clone hurl 4.3.0
 
 ```
+rm -fr /tmp/ppa || true
 git clone --depth 1 https://github.com/Orange-OpenSource/hurl.git --branch "${HURL_VERSION}" /tmp/ppa/hurl-"${HURL_VERSION}"
 cd /tmp/ppa/hurl-"${HURL_VERSION}"
 ```
