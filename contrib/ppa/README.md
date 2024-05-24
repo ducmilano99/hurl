@@ -2,10 +2,10 @@
 
 ## Create the PPA
 
-- Add your GPG Public key to https://keyserver.ubuntu.com/#submitKey
 - Go to https://launchpad.net
 - Create an account
 - Create you PPA
+- Add your GPG Public key to https://keyserver.ubuntu.com/#submitKey
 - Add your GPG public key to your PPA
 
 ```
