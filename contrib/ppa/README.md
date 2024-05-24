@@ -29,7 +29,7 @@ gpg --import /tmp/mypublickey.asc
 gpg --import /tmp/myprivatekey.asc
 ```
 
-## export gpg key
+## Export gpg key
 
 ```
 gpg_keyid=$(gpg --list-keys | grep -E "^ " | tr -d ' ')
